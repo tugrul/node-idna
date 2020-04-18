@@ -1,0 +1,29 @@
+{
+  "name": "idna",
+  "version": "0.0.1",
+  "description": "Verify unicode characters to IDNA protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tugrul/node-idna.git"
+  },
+  "keywords": [
+    "idna",
+    "punnycode",
+    "idn"
+  ],
+  "author": "Tuğrul Topuz <tugrultopuz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tugrul/node-idna/issues"
+  },
+  "homepage": "https://github.com/tugrul/node-idna#readme",
+  "devDependencies": {
+    "aline": "^0.0.8",
+    "axios": "^0.19.2",
+    "mocha": "^7.1.1"
+  }
+}
