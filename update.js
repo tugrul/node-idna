@@ -68,6 +68,9 @@ async function update({url, idna2003, idna2008}) {
                     if ((target[1] + 1) !== code) {
                         if (target[0] === target[1]) {
                             codes.push(target[0]);
+                        } else if(target[0] + 1 === target[1]) {
+                            codes.push(target[0]);
+                            codes.push(target[1]);
                         } else {
                             codes.push(target);
                         }
